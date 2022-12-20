@@ -26,7 +26,7 @@ tblPersons.heading("address", text="ADDRESS", anchor=CENTER)
 # Add record
 tblPersons.insert(parent='', index='end', iid=0, values=(1, 'Amelia', 'Jhamsikhel',))
 tblPersons.insert(parent='', index='end',iid=1, values=(2, 'Aasma', 'Jhapa'))
-tblPersons.insert(parent='', index='end',iid=1, values=(2, 'Aasma', 'Jhapa'))
+# tblPersons.insert(parent='', index='end',iid=1, values=(2, 'Aasma', 'Jhapa'))
 
 
 tblPersons.pack()
